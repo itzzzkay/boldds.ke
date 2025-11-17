@@ -31,7 +31,7 @@ export default function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/boldds.ke">
       <CartProvider>
         <div className="app">
           <Navbar />
