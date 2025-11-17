@@ -37,7 +37,7 @@ export default function Home() {
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/boldds.ke/images/whyy.jpg"
+              src="/images/whyy.jpg"
               alt="Custom merch workspace"
             />
           </div>
@@ -89,7 +89,9 @@ export default function Home() {
 
               <div className="why-item">
                 <h3>⭐ Small Batch Friendly</h3>
-                <p>No minimum orders. Even one item gets premium treatment.</p>
+                <p>
+                  No minimum orders. Even one item gets premium treatment.
+                </p>
               </div>
             </div>
           </div>
@@ -103,24 +105,20 @@ export default function Home() {
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/boldds.ke/images/how.jpg"
+              src="/images/how.jpg"
               alt="Printing and production process"
             />
           </div>
 
           <div className="split-content">
-            <h2 className="section-title">
-              How BOLDDS Brings Your Idea to Life
-            </h2>
+            <h2 className="section-title">How BOLDDS Brings Your Idea to Life</h2>
             <p className="section-subtitle">Simple. Fast. Aesthetic.</p>
 
             <div className="how-grid">
               <div className="how-item">
                 <span>1️⃣</span>
                 <h3>You come with the vibe.</h3>
-                <p>
-                  Send your idea, artwork, logo, inspo pic, or even a sketch.
-                </p>
+                <p>Send your idea, artwork, logo, inspo pic, or even a sketch.</p>
               </div>
 
               <div className="how-item">
@@ -161,7 +159,7 @@ export default function Home() {
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/boldds.ke/images/who.jpg"
+              src="/images/who.jpg"
               alt="Custom mugs and notebooks"
             />
           </div>
@@ -219,7 +217,7 @@ export default function Home() {
 
           <div className="mission-image-wrapper">
             <img
-              src="/boldds.ke/images/mission.jpg"
+              src="/images/mission.jpg"
               alt="Creative desk workspace"
             />
           </div>
@@ -233,7 +231,7 @@ export default function Home() {
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/boldds.ke/images/promise.jpg"
+              src="/images/promise.jpg"
               alt="Folded streetwear clothing"
             />
           </div>
@@ -269,7 +267,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/boldds.ke/images/cat-clothing.jpg"
+                  src="/images/cat-clothing.jpg"
                   alt="Clothing merch"
                 />
               </div>
@@ -280,7 +278,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/boldds.ke/images/cat-accessories.jpg"
+                  src="/images/cat-accessories.jpg"
                   alt="Accessories"
                 />
               </div>
@@ -291,7 +289,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/boldds.ke/images/cat-stationery.jpg"
+                  src="/images/cat-stationery.jpg"
                   alt="Stationery"
                 />
               </div>
