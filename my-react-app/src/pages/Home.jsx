@@ -89,9 +89,7 @@ export default function Home() {
 
               <div className="why-item">
                 <h3>⭐ Small Batch Friendly</h3>
-                <p>
-                  No minimum orders. Even one item gets premium treatment.
-                </p>
+                <p>No minimum orders. Even one item gets premium treatment.</p>
               </div>
             </div>
           </div>
@@ -159,7 +157,7 @@ export default function Home() {
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/images/who.jpg"
+              src={`${import.meta.env.BASE_URL}images/who.jpg`}
               alt="Custom mugs and notebooks"
             />
           </div>
@@ -217,7 +215,7 @@ export default function Home() {
 
           <div className="mission-image-wrapper">
             <img
-              src="/images/mission.jpg"
+              src={`${import.meta.env.BASE_URL}images/mission.jpg`}
               alt="Creative desk workspace"
             />
           </div>
@@ -231,7 +229,7 @@ export default function Home() {
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/images/promise.jpg"
+              src={`${import.meta.env.BASE_URL}images/promise.jpg`}
               alt="Folded streetwear clothing"
             />
           </div>
@@ -245,12 +243,8 @@ export default function Home() {
                 ✔ Colors match your design exactly
               </div>
               <div className="promise-item">✔ Quick delivery times</div>
-              <div className="promise-item">
-                ✔ 100% aesthetic, every single time
-              </div>
-              <div className="promise-item">
-                ✔ Fair pricing for premium gear
-              </div>
+              <div className="promise-item">✔ 100% aesthetic, every single time</div>
+              <div className="promise-item">✔ Fair pricing for premium gear</div>
             </div>
           </div>
         </div>
@@ -267,7 +261,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/images/cat-clothing.jpg"
+                  src={`${import.meta.env.BASE_URL}images/cat-clothing.jpg`}
                   alt="Clothing merch"
                 />
               </div>
@@ -278,7 +272,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/images/cat-accessories.jpg"
+                  src={`${import.meta.env.BASE_URL}images/cat-accessories.jpg`}
                   alt="Accessories"
                 />
               </div>
@@ -289,7 +283,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/images/cat-stationery.jpg"
+                  src={`${import.meta.env.BASE_URL}images/cat-stationery.jpg`}
                   alt="Stationery"
                 />
               </div>
