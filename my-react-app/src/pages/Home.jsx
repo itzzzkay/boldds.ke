@@ -37,7 +37,7 @@ export default function Home() {
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/images/whyy.jpg"
+              src={`${import.meta.env.BASE_URL}images/whyy.jpg`}
               alt="Custom merch workspace"
             />
           </div>
@@ -105,7 +105,7 @@ export default function Home() {
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/images/how.jpg"
+              src={`${import.meta.env.BASE_URL}images/how.jpg`}
               alt="Printing and production process"
             />
           </div>
