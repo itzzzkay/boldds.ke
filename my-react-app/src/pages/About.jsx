@@ -22,7 +22,7 @@ export default function About() {
 
         <div className="about-image-wrapper">
           <img
-            src="/images/fashion.jpg"
+            src={`${import.meta.env.BASE_URL}images/fashion.jpg`}
             alt="Custom merchandise"
           />
         </div>
