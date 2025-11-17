@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+
+  "homepage": "https://itzzzkay.github.io/boldds.ke/",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d my-react-app/dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
