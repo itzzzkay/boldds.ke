@@ -12,13 +12,14 @@ export default function Home() {
       <Hero />
 
       {/* =========================== */}
-      {/* FEATURED PRODUCTS */}
+      {/* FEATURED PRODUCTS           */}
       {/* =========================== */}
       <section className="home-section fade-up">
         <div className="container">
           <h2 className="section-title">Top Picks This Month</h2>
           <p className="section-subtitle">
-            The pieces everyone’s copping right now — trending, clean, and built different.
+            The pieces everyone’s copping right now — trending, clean, and built
+            different.
           </p>
 
           <div className="products-grid">
@@ -30,13 +31,13 @@ export default function Home() {
       </section>
 
       {/* =========================== */}
-      {/* WHY CHOOSE BOLDDS */}
+      {/* WHY CHOOSE BOLDDS           */}
       {/* =========================== */}
       <section className="why-section section-split fade-up">
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/boldds.ke/images/whyy.jpg"
+              src="/images/whyy.jpg"
               alt="Custom merch workspace"
             />
           </div>
@@ -44,28 +45,41 @@ export default function Home() {
           <div className="split-content">
             <h2 className="section-title">Why Thousands Choose BOLDDS</h2>
             <p className="section-subtitle">
-              Not all custom merch is made equal. BOLDDS hits different — here’s why:
+              Not all custom merch is made equal. BOLDDS hits different — here’s
+              why:
             </p>
 
             <div className="why-grid">
               <div className="why-item">
                 <h3>⭐ Quality You Can Feel</h3>
-                <p>Premium hoodies, tees, mugs, notebooks, and accessories. No thin fabric. No fading prints.</p>
+                <p>
+                  Premium hoodies, tees, mugs, notebooks, and accessories. No
+                  thin fabric. No fading prints.
+                </p>
               </div>
 
               <div className="why-item">
                 <h3>⭐ Customization That Looks Clean</h3>
-                <p>Minimal, aesthetic, crisp designs made for real drip — not noise.</p>
+                <p>
+                  Minimal, aesthetic, crisp designs made for real drip — not
+                  noise.
+                </p>
               </div>
 
               <div className="why-item">
                 <h3>⭐ Built for Students, Teams & Creators</h3>
-                <p>Whether it’s for your club, squad, or just your vibe — BOLDDS brings ideas to life.</p>
+                <p>
+                  Whether it’s for your club, your squad, or just your vibe —
+                  BOLDDS brings ideas to life.
+                </p>
               </div>
 
               <div className="why-item">
                 <h3>⭐ Affordable, Without Looking Cheap</h3>
-                <p>High-quality, premium-feel merch that doesn’t drain your wallet.</p>
+                <p>
+                  High-quality, premium-feel merch that doesn’t drain your
+                  wallet.
+                </p>
               </div>
 
               <div className="why-item">
@@ -75,7 +89,9 @@ export default function Home() {
 
               <div className="why-item">
                 <h3>⭐ Small Batch Friendly</h3>
-                <p>No minimum orders. Even one item gets premium treatment.</p>
+                <p>
+                  No minimum orders. Even one item gets premium treatment.
+                </p>
               </div>
             </div>
           </div>
@@ -83,13 +99,13 @@ export default function Home() {
       </section>
 
       {/* =========================== */}
-      {/* HOW IT WORKS */}
+      {/* HOW IT WORKS                */}
       {/* =========================== */}
       <section className="how-section section-split split-reverse fade-up">
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/boldds.ke/images/how.jpg"
+              src="/images/how.jpg"
               alt="Printing and production process"
             />
           </div>
@@ -114,7 +130,10 @@ export default function Home() {
               <div className="how-item">
                 <span>3️⃣</span>
                 <h3>You pick your blank.</h3>
-                <p>Hoodie, tee, tote, mug, notebook, sticker pack — whatever fits your vision.</p>
+                <p>
+                  Hoodie, tee, tote, mug, notebook, sticker pack — whatever fits
+                  your vision.
+                </p>
               </div>
 
               <div className="how-item">
@@ -134,13 +153,13 @@ export default function Home() {
       </section>
 
       {/* =========================== */}
-      {/* WHO WE PRINT FOR */}
+      {/* WHO WE PRINT FOR            */}
       {/* =========================== */}
       <section className="who-section section-split fade-up">
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/boldds.ke/images/who.jpg"
+              src="/images/who.jpg"
               alt="Custom mugs and notebooks"
             />
           </div>
@@ -151,22 +170,34 @@ export default function Home() {
             <div className="who-grid">
               <div className="who-item">
                 <h3>🎓 Students & Campus Life</h3>
-                <p>Society merch, squad hoodies, farewell gifts, birthdays — all covered.</p>
+                <p>
+                  Society merch, squad hoodies, farewell gifts, birthdays — all
+                  covered.
+                </p>
               </div>
 
               <div className="who-item">
                 <h3>💼 Small Businesses</h3>
-                <p>Merch for branding, TikTok content, product shoots, packaging, and staff wear.</p>
+                <p>
+                  Merch for branding, TikTok content, product shoots, packaging,
+                  and staff wear.
+                </p>
               </div>
 
               <div className="who-item">
                 <h3>✍️ Creators & Aesthetic Lovers</h3>
-                <p>Notebooks, tees, hoodies, cases, stickers — match your whole vibe.</p>
+                <p>
+                  Notebooks, tees, hoodies, cases, stickers — match your whole
+                  vibe.
+                </p>
               </div>
 
               <div className="who-item">
                 <h3>🎁 Personalized Gifts</h3>
-                <p>Clean, meaningful gifts for birthdays, friendships, and celebrations.</p>
+                <p>
+                  Clean, meaningful gifts for birthdays, friendships, and
+                  celebrations.
+                </p>
               </div>
             </div>
           </div>
@@ -174,18 +205,19 @@ export default function Home() {
       </section>
 
       {/* =========================== */}
-      {/* OUR MISSION */}
+      {/* OUR MISSION                 */}
       {/* =========================== */}
       <section className="mission-section fade-up">
         <div className="container">
           <h2 className="section-title">Our Mission</h2>
           <p className="section-subtitle">
-            To let people wear what they feel. To turn ideas into style. To make drip personal — not mass-produced.
+            To let people wear what they feel. To turn ideas into style. To make
+            drip personal — not mass-produced.
           </p>
 
           <div className="mission-image-wrapper">
             <img
-              src="/boldds.ke/images/mission.jpg"
+              src="/images/mission.jpg"
               alt="Creative desk workspace"
             />
           </div>
@@ -193,34 +225,39 @@ export default function Home() {
       </section>
 
       {/* =========================== */}
-      {/* OUR PROMISE */}
+      {/* OUR PROMISE                 */}
       {/* =========================== */}
       <section className="promise-section section-split split-reverse fade-up">
         <div className="container split-inner">
           <div className="split-image">
             <img
-              src="/boldds.ke/images/promise.jpg"
+              src="/images/promise.jpg"
               alt="Folded streetwear clothing"
             />
           </div>
 
           <div className="split-content">
             <h2 className="section-title">The BOLDDS Promise</h2>
-
             <div className="promise-grid">
               <div className="promise-item">✔ You will love the quality</div>
               <div className="promise-item">✔ Prints will not fade</div>
-              <div className="promise-item">✔ Colors match your design exactly</div>
+              <div className="promise-item">
+                ✔ Colors match your design exactly
+              </div>
               <div className="promise-item">✔ Quick delivery times</div>
-              <div className="promise-item">✔ 100% aesthetic, every single time</div>
-              <div className="promise-item">✔ Fair pricing for premium gear</div>
+              <div className="promise-item">
+                ✔ 100% aesthetic, every single time
+              </div>
+              <div className="promise-item">
+                ✔ Fair pricing for premium gear
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* =========================== */}
-      {/* SHOP BY CATEGORY */}
+      {/* SHOP BY CATEGORY            */}
       {/* =========================== */}
       <section className="categories-section fade-up">
         <div className="container">
@@ -230,7 +267,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/boldds.ke/images/cat-clothing.jpg"
+                  src="/images/cat-clothing.jpg"
                   alt="Clothing merch"
                 />
               </div>
@@ -241,7 +278,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/boldds.ke/images/cat-accessories.jpg"
+                  src="/images/cat-accessories.jpg"
                   alt="Accessories"
                 />
               </div>
@@ -252,7 +289,7 @@ export default function Home() {
             <Link to="/products" className="category-card">
               <div className="category-image-wrapper">
                 <img
-                  src="/boldds.ke/images/cat-stationery.jpg"
+                  src="/images/cat-stationery.jpg"
                   alt="Stationery"
                 />
               </div>
@@ -264,7 +301,7 @@ export default function Home() {
       </section>
 
       {/* =========================== */}
-      {/* TESTIMONIALS */}
+      {/* TESTIMONIALS                */}
       {/* =========================== */}
       <Testimonials />
     </main>
