@@ -18,26 +18,9 @@ export const PRODUCTS = [
     description:
       "Soft, breathable, and built for expression. Your message, your art, your identity — right on your chest.",
   },
-  {
-    slug: "classic-cap",
-    name: "Classic Cap",
-    category: "Clothing",
-    price: 900,
-    image: import.meta.env.BASE_URL + "productpics/cap.jpg",
-    description:
-      "Simple, iconic, everyday headwear. Finish your fit with a clean, custom cap that actually matches your vibe.",
-  },
 
   // ACCESSORIES
-  {
-    slug: "printed-mug",
-    name: "Printed Mug",
-    category: "Accessories",
-    price: 700,
-    image: import.meta.env.BASE_URL + "productpics/mug.jpg",
-    description:
-      "Start your day with a vibe. Clean prints and a solid feel — perfect for your desk, your shelf, or your IG story.",
-  },
+
   {
     slug: "tote-bag",
     name: "Tote Bag",
