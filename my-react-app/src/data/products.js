@@ -48,24 +48,15 @@ export const PRODUCTS = [
     description:
       "For laptops, water bottles, journals, dorm doors — if it sticks, it’s getting a glow-up. A full pack of custom designs.",
   },
-  {
-    slug: "water-bottle",
-    name: "Water Bottle",
-    category: "Accessories",
-    price: 1300,
-    image: import.meta.env.BASE_URL + "productpics/bottle.jpg",
-    description:
-      "Hydration but make it streetwear. Durable, leak-proof, and customized to match your aesthetic.",
-  },
 
   // STATIONERY
   {
-    slug: "personalized-notebook",
-    name: "Personalized Notebook",
-    category: "Stationery",
-    price: 600,
-    image: import.meta.env.BASE_URL + "productpics/notebook.jpg",
+    slug: "gift-card",
+    name: "Gift Card",
+    category: "Accessories",
+    price: 1000,
+    image: "/boldds.ke/productpics/giftcard.jpg",
     description:
-      "For studying, planning, journaling, or dreaming. A notebook that actually matches your vibe — crisp cover, clean pages, fully you.",
+      "Perfect for birthdays, surprises, and last-minute gifts. Let them choose exactly what they want — in their size, their style, their vibe.",
   },
 ];
